@@ -1,4 +1,3 @@
-/*************  ✨ Codeium Command 🌟  *************/
 import {
   Button,
   Container,
@@ -10,12 +9,14 @@ import {
 import { Link } from "react-router-dom";
 
 import { PlusSquareIcon } from "@chakra-ui/icons";
+import { IoMoon } from "react-icons/io5";
+import { LuSun } from "react-icons/lu";
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Container maxW="1140px">
+    <Container maxW="1140px" px={4}>
       <Flex
         h={16}
         alignItems="center"
@@ -52,5 +53,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-/******  b9007c72-99e8-4192-80dd-07bfed65613a  *******/
